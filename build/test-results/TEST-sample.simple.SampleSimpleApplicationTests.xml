@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sample.simple.SampleSimpleApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-01-19T03:46:31" hostname="Karthys-MacBook-Pro.local" time="3.471">
+  <properties/>
+  <testcase name="testDefaultSettings" classname="sample.simple.SampleSimpleApplicationTests" time="2.626"/>
+  <testcase name="testCommandLineOverrides" classname="sample.simple.SampleSimpleApplicationTests" time="0.845"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.3.2.BUILD-SNAPSHOT)
+
+2016-01-18 22:46:32.653  INFO 4160 --- [    Test worker] sample.simple.SampleSimpleApplication    : Starting SampleSimpleApplication on Karthys-MacBook-Pro.local with PID 4160 (/Users/karthy/git/spring-boot-sample-simple/build/classes/main started by karthy in /Users/karthy/git/spring-boot-sample-simple)
+2016-01-18 22:46:32.665  INFO 4160 --- [    Test worker] sample.simple.SampleSimpleApplication    : No active profile set, falling back to default profiles: default
+2016-01-18 22:46:32.842  INFO 4160 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@46d443fb: startup date [Mon Jan 18 22:46:32 EST 2016]; root of context hierarchy
+2016-01-18 22:46:34.412  INFO 4160 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+Hello Phil
+2016-01-18 22:46:34.429  INFO 4160 --- [    Test worker] sample.simple.SampleSimpleApplication    : Started SampleSimpleApplication in 2.31 seconds (JVM running for 4.65)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.3.2.BUILD-SNAPSHOT)
+
+2016-01-18 22:46:34.649  INFO 4160 --- [    Test worker] sample.simple.SampleSimpleApplication    : Starting SampleSimpleApplication on Karthys-MacBook-Pro.local with PID 4160 (/Users/karthy/git/spring-boot-sample-simple/build/classes/main started by karthy in /Users/karthy/git/spring-boot-sample-simple)
+2016-01-18 22:46:34.650  INFO 4160 --- [    Test worker] sample.simple.SampleSimpleApplication    : No active profile set, falling back to default profiles: default
+2016-01-18 22:46:34.653  INFO 4160 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@141cb654: startup date [Mon Jan 18 22:46:34 EST 2016]; root of context hierarchy
+2016-01-18 22:46:35.256  INFO 4160 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+Hello Gordon
+2016-01-18 22:46:35.276  INFO 4160 --- [    Test worker] sample.simple.SampleSimpleApplication    : Started SampleSimpleApplication in 0.82 seconds (JVM running for 5.497)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
